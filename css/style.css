@@ -1,0 +1,701 @@
+/*font-family: 'Ubuntu', sans-serif;*/
+
+
+.bgimg{
+	background-image: url('../img/zz.jpeg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 500px;
+
+}
+
+
+ul li{
+	
+	margin-right: 3px;
+	text-align: center;
+	display: inline-block;
+
+
+
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	text-decoration: none;
+
+}
+ul li a:hover {
+	background-color: black;
+	display: block;
+}
+
+ul li  ul li {
+	display: none;
+	margin-right: 2px;
+}
+ul li:hover ul li{
+	display: block;
+	background-color: yello;
+}
+/*--------------------end navbar---------------*/
+.headerset{
+	padding-top: 200px;
+	box-sizing: border-box;
+}
+.headerset h2{
+	font-size: 22px;
+ 
+	font-family: 'Shadows Into Light', cursive;
+}
+.headerset h1{
+	font-size: 42px;
+	font-weight: bold;
+	font-family: 'Unna', serif;
+
+}
+.headerset button{
+	font-size: none;
+	margin-bottom: 5px 5px 10px;
+	margin-top: 20px;
+	border-spacing: 10px;
+	
+}
+.headerset h4{
+	margin-top: 20px;
+	font-size: 15px;
+	
+	
+	font-family: 'Bilbo', cursive;
+
+}
+
+													/*----------- start----mediaquerry----*/
+
+													@media (max-width: 1199.98px) { 
+
+													}
+
+													  
+														
+
+
+	                                                @media (max-width: 991.98px) {
+														
+													}
+			 @media (max-width: 767.98px) { 
+
+												.headerset h2{
+													font-size: 20px;
+												 
+													font-family: 'Shadows Into Light', cursive;
+												}
+												.headerset h1{
+													font-size: 35px;
+													font-weight: bold;
+													font-family: 'Unna', serif;
+
+												}
+																	.headerset h4{
+																	margin-top: 20px;
+																	font-size: 12px;
+																	
+																	
+																	font-family: 'Bilbo', cursive;
+
+																}	
+
+														  
+
+														
+       }
+@media (max-width: 575.98px) {
+														
+					.headerset{
+	padding-top: 200px;
+	box-sizing: border-box;
+}
+.headerset h2{
+	font-size: 15px;
+ 
+	font-family: 'Shadows Into Light', cursive;
+}
+.headerset h1{
+	font-size: 25px;
+	font-weight: bold;
+	font-family: 'Unna', serif;
+
+}
+.headerset button{
+	font-size: none;
+	margin-bottom: 5px 5px 10px;
+	margin-top: 20px;
+	border-spacing: 10px;
+	
+}
+.headerset h4{
+	margin-top: 20px;
+	font-size: 10px;
+	
+	
+	font-family: 'Bilbo', cursive;
+
+}	
+
+}
+												
+													/*-----end the muerry-----------*/
+
+
+/*...........SEE........*/
+.img{
+	background-image: url('../img/aa.jpg');
+	background-size: 100% 100%;
+	
+	width: 100%;
+	height: 740px;
+
+}
+
+.ourservices{
+	padding: 100px 0px 60px;
+	height: 700px;
+}
+
+.ourservices h1{
+	font-weight: bold;
+	font-size: 50px;
+
+}
+.rowsetting{
+	margin: 50px 0px !important;
+}
+.rowsetting h2{
+	margin-top: 20px;
+	font-weight: bold;
+	font-size: 40px;
+}
+.rowsetting h6{
+
+	font-family: 'Herr Von Muellerhoff', cursive;
+}
+.imgsetting{
+	border-radius: 50%;
+	height: 100px;
+	width: 100px
+}
+
+
+.fa-file-pdf-o{
+	margin-top: 20px;
+}
+.fa-list-alt{
+	margin-top: 20px;
+}
+.fa-film {
+	margin-top: 20px;
+}
+..rowsetting p {
+	text-transform: uppercase;
+	font-family: 'Herr Von Muellerhoff', cursive;
+}
+
+
+
+													/*----------- start----mediaquerry of see----*/
+
+													@media (max-width: 1199.98px) { 
+
+													}
+
+													  
+														
+
+
+	                                                @media (max-width: 991.98px) {
+														
+													}
+            @media (max-width: 767.98px) { 
+
+											.ourservices h1{
+												font-weight: bold;
+												    font-size: 38px;
+
+											}
+											p{
+												font-size: 15px;
+											}
+											.rowsetting{
+												margin: 50px 0px !important;
+											}
+											.rowsetting h2{
+												margin-top: 20px;
+												font-weight: bold;
+												    font-size: 30px;
+												        color: black;
+											}
+											.rowsetting h6{
+
+												font-family: 'Herr Von Muellerhoff', cursive;
+												    font-size: 13px;
+											}
+
+														.rowsetting p {
+												text-transform: uppercase;
+												font-family: 'Herr Von Muellerhoff', cursive;
+											}
+  
+
+													
+		}
+		@media (max-width: 575.98px) {               
+											.img{
+											background-image: url('../img/aa.jpg');
+											background-size: 100% 100%;
+											
+											width: 100%;
+											height: 550px;
+
+										    }
+
+
+											.ourservices{
+												padding: 70px 0px 30px;
+												
+											}
+
+											.ourservices h1{
+												font-weight: bold;
+												    font-size: 25px;
+
+											}
+											p{
+												font-size: 10px;
+											}
+											.rowsetting{
+												margin: 50px 0px !important;
+											}
+											.rowsetting h2{
+												margin-top: 20px;
+												font-weight: bold;
+												    font-size: 20px;
+												        color: black;
+											}
+											.rowsetting h6{
+
+												font-family: 'Herr Von Muellerhoff', cursive;
+												    font-size: 10px;
+											}
+											.imgsetting{
+												border-radius: 50%;
+												height: 100px;
+												width: 100px
+											}
+
+
+											.fa-file-pdf-o{
+												margin-top: 20px;
+											}
+											.fa-list-alt{
+												margin-top: 20px;
+											}
+											.fa-film {
+												margin-top: 20px;
+											}
+											.rowsetting p {
+												text-transform: uppercase;
+												font-family: 'Herr Von Muellerhoff', cursive;
+											}
+
+
+                                                   }
+												
+													/*-----end the muerry---- of see-------*/
+
+
+
+
+/*..........+2........*/
+.images1{
+	background-image: url('../img/b3.jpeg');
+	background-size: 100% 100%;
+	
+	width: 100%;
+	height: 700px;
+
+}
+		
+	/*----------- start----mediaquerry- +2--*/
+
+@media (max-width: 1199.98px) { ... }
+
+  
+	
+
+
+@media (max-width: 991.98px) {
+	
+}
+@media (max-width: 767.98px) { 
+
+	  
+
+	
+
+}
+@media (max-width: 575.98px) {
+
+
+																								
+												/*..........+2........*/
+												.images1{
+													background-image: url('../img/zz.jpeg');
+													background-size: 100% 100%;
+													
+													width: 100%;
+													height: 550px;
+
+
+														
+													
+
+												}
+
+												/*---- end see------*/	
+	
+}
+/*---------------end the querry for +2----------*/
+
+
+
+/*------bachelor----*/
+.img-image{
+	background-image: url('../img/aaa.jpg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 700px;
+
+	
+}
+
+/*----------- start----mediaquerry- bachelor--*/
+
+@media (max-width: 1199.98px) { ... }
+
+  
+	
+
+
+@media (max-width: 991.98px) {
+	
+}
+@media (max-width: 767.98px) { 
+
+	  
+
+	
+
+}
+@media (max-width: 575.98px) {
+
+
+														/*------bachelor----*/
+														.img-image{
+															background-image: url('../img/aaa.jpg');
+															background-size: 100% 100%;
+															background-attachment: fixed;
+															width: 100%;
+															height: 550px;
+
+															
+														}
+                                                /*------------end bachelor-----------*/
+					
+	
+}
+/*---------------end the querry for tbachelor----------*/
+
+/*----------end bachelor---------------------------------------------->
+
+
+/*....our team...*/
+.ourteam{
+	height: 650px;
+	padding: 100px 0px 60px;
+	width: 100%;
+
+}
+.ourteam h1{
+	font-size: 50px;
+	font-weight: bold;
+
+
+}
+.teamsetting{
+	margin-top: 70px !important;
+}
+.teamsetting h5{
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: lowercase;
+	font-family: 'Tangerine', cursive;
+}
+
+
+
+
+
+
+/*----contacts us-----*/
+
+
+
+.image{
+	background-image: url('../img/ipne.jpeg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 700px;
+
+	
+}
+
+.contact{
+	height: 560px;
+	padding: 100px 0px 60px;
+	width: 100%;
+
+
+}
+.contact h1{
+	font-weight: bold;
+	font-size: 50px;
+	color: white;
+
+}
+.contact-form{
+	box-shadow: 0 0 4px 0 rgba(0,0,0,0.5);
+	margin: 50px auto;
+	width: 350px;
+	text-align: center;
+
+
+}
+.contact-form h2{
+	background: #efefef;
+	margin: 0;
+	padding: 10px;
+
+
+}
+.contact-form input{
+	display: block;
+	width: 90%;
+	margin: 10px auto;
+}
+.contact-form textarea{
+	width: 90%;
+	margin: 5px auto;
+	padding: 10px;
+	height: 80px;
+
+}
+.contact-form button{
+	font-size: none;
+	margin-bottom: 5px 5px 10px;
+	margin-top: 10px;
+	border-spacing: 10px;
+
+	
+}
+btn-btn{
+
+    cursor: pointer;
+	width: 150px; important;
+	margin-left: 18px; !mportant;
+
+}
+												/*----------- start----mediaquerry- for contact form---*/
+
+												@media (max-width: 1199.98px) { ... }
+
+												  
+													
+
+
+												@media (max-width: 991.98px) {
+													
+												}
+												@media (max-width: 767.98px) { 
+													.contact h1{
+																							font-weight: bold;
+																							font-size: 38px;
+																							color: white;
+
+																						}
+																						.contact-form{
+																							box-shadow: 0 0 4px 0 rgba(0,0,0,0.5);
+																							margin: 50px auto;
+																							width: 350px;
+																							text-align: center;
+
+
+																						}
+																						.contact-form h2{
+																							background: #efefef;
+																							margin: 0;
+																							padding: 10px;
+																							font-size: 2p0x;
+
+
+																						}
+
+													  
+
+													
+													
+												}
+												@media (max-width: 575.98px) {
+
+																						.image{
+																							background-image: url('../img/ipne.jpeg');
+																							background-size: 100% 100%;
+																							background-attachment: fixed;
+																							width: 100%;
+																							height: 550px;
+
+																							
+																						}
+
+																						.contact{
+																							height: 560px;
+																							padding: 100px 0px 60px;
+																							width: 100%;
+
+
+																						}
+																						.contact h1{
+																							font-weight: bold;
+																							font-size: 25px;
+																							color: white;
+
+																						}
+																						.contact-form{
+																							box-shadow: 0 0 4px 0 rgba(0,0,0,0.5);
+																							margin: 50px auto;
+																							width: 350px;
+																							text-align: center;
+
+
+																						}
+																						.contact-form h2{
+																							background: #efefef;
+																							margin: 0;
+																							padding: 10px;
+
+
+																						}
+																						.contact-form input{
+																							display: block;
+																							width: 90%;
+																							margin: 10px auto;
+																						}
+																						.contact-form textarea{
+																							width: 90%;
+																							margin: 5px auto;
+																							padding: 10px;
+																							height: 80px;
+
+																						}
+																						.contact-form button{
+																							font-size: none;
+																							margin-bottom: 5px 5px 10px;
+																							margin-top: 10px;
+																							border-spacing: 10px;
+
+																							
+																						}
+																						btn-btn{
+
+																						    cursor: pointer;
+																							width: 150px; important;
+																							margin-left: 18px; !mportant;
+
+																						}
+													
+												}
+/*---------------end the querry for the contact forom----------*/
+
+/*-----------------------footer---------------*/
+
+.footer{
+	height: 15px;
+	color: black;
+
+
+
+}
+.footer h6{
+	line-height: 15px;
+	
+}
+
+@media (max-width: 1199.98px) { ... }
+
+  
+	
+
+
+@media (max-width: 991.98px) {
+	
+@media (max-width: 767.98px) { 
+
+	  
+
+	.footer h6{
+	line-height: 15px;
+	font-size: 13px;
+}
+@media (max-width: 575.98px) {
+	.footer h6{
+	line-height: 10px;
+	font-size: 10px;
+	
+}
+
+
+
+/*----------- start----mediaquerry- for naavbar--*/
+
+@media (max-width: 1199.98px) { ... }
+
+  
+	
+
+
+@media (max-width: 991.98px) {
+	
+}
+@media (max-width: 767.98px) { 
+
+	  
+
+	
+	ul li a{
+		font-size: 10px;
+
+	}
+	
+}
+@media (max-width: 575.98px) {
+
+	ul li a{
+		font-size: 10px;
+
+	}
+	
+}
+/*---------------end the querry for navbar---------*/
