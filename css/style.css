@@ -11,6 +11,57 @@
 }
 
 
+
+
+
+
+
+
+
+
+.nav-logo a{ 
+
+
+}
+
+/*----------- start--for aherf--*/
+
+@media (max-width: 1199.98px) { ... }
+
+  
+	
+
+
+@media (max-width: 991.98px) {
+
+	
+	
+	
+}
+@media (max-width: 767.98px) { 
+
+	  
+
+	
+	 .nav-logo a{
+		font-size: 18px;
+
+	}
+	
+}
+@media (max-width: 575.98px) {
+
+	 .nav-logo a{
+		font-size: 15px;
+
+
+	}
+	
+}
+/*---------------end the querry aherf---------*/
+
+
+
 ul li{
 	
 	margin-right: 3px;
@@ -27,6 +78,47 @@ ul li a{
 	text-decoration: none;
 
 }
+
+
+
+
+											/*----------- start----mediaquerry- for naavbar--*/
+
+											@media (max-width: 1199.98px) { ... }
+
+											  
+												
+
+
+											@media (max-width: 991.98px) {
+												
+											}
+											@media (max-width: 767.98px) { 
+
+												  
+
+												
+												ul li a{
+													font-size: 10px;
+
+												}
+												
+											}
+											@media (max-width: 575.98px) {
+
+												ul li a{
+													
+													    font-size: 8px;
+                                                        
+												}
+												
+											}
+											
+											/*---------------end the querry for navbar---------*/
+
+
+
+
 ul li a:hover {
 	background-color: black;
 	display: block;
@@ -40,6 +132,47 @@ ul li:hover ul li{
 	display: block;
 	background-color: yello;
 }
+
+/*--------------------------------body text of home page---------------*/
+.body-text{
+
+}
+
+/*----------- start----mediaquerry- for naavbar--*/
+
+											@media (max-width: 1199.98px) { ... }
+
+											  
+												
+
+
+											@media (max-width: 991.98px) {
+												
+											}
+											@media (max-width: 767.98px) { 
+
+												
+
+
+												
+												
+											}
+											@media (max-width: 575.98px) {
+
+												.body-text h2{
+													font-size: 12px;
+
+												}
+												.body-text h4{
+													font-size: 8px;
+												}
+
+												
+											}
+											
+											/*---------------end the querry for navbar---------*/
+
+/*---------------------------------end the body home page---------------*/
 /*--------------------end navbar---------------*/
 .headerset{
 	padding-top: 200px;
@@ -368,6 +501,188 @@ ul li:hover ul li{
 }
 /*---------------end the querry for +2----------*/
 
+/*---------------------------data collapse css fo subject of +2-------------------*/
+
+
+.img10{
+	background-image: url('../img/bg2.jpg');
+	
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 550px;
+
+}
+.image11{
+	background-image: url('../img/bg2.jpg');
+	
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 1px;
+
+}
+
+
+
+
+
+/*....our team...*/
+.ourteam{
+	height: 300px;
+	padding: 100px 0px 60px;
+	width: 100%;
+
+}
+.ourteam h2{
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	
+
+
+}
+.teamsetting{
+	margin-top: 70px !important;
+}
+.teamsetting h5{
+	color: black;
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: lowercase;
+	font-family: 'Tangerine', cursive;
+	margin-top: 65px;
+}
+
+.colum-style button{
+	font-size: none;
+	margin-bottom: 5px 5px 5px;
+	margin-top: 10px;
+	border-spacing: 3px;
+	
+}
+.column-item button{
+	font-size: none;
+	margin-bottom: 5px 5px 5px;
+	margin-top: 10px;
+	border-spacing: 3px;
+	
+}
+
+.column-button button{
+	font-size: none;
+	margin-bottom: 5px 5px 5px;
+	margin-top: 10px;
+	border-spacing: 3px;
+	}
+
+
+
+
+
+
+
+
+	/*----------- start----mediaquerry- bachelor--*/
+
+@media (max-width: 1199.98px) { ... }
+
+  
+	
+
+
+@media (max-width: 991.98px) {
+	
+}
+@media (max-width: 767.98px) { 
+	.teamsetting h5 {
+    color: black;
+    font-weight: bold;
+    font-size: 10px;
+    text-transform: lowercase;
+    font-family: 'Tangerine', cursive;
+   margin-top: 65px;
+}
+
+	  
+
+	
+
+}
+@media (max-width: 575.98px) {
+
+	.img10{
+	background-image: url('../img/bg2.jpg');
+	
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 340px;
+
+}
+.image11{
+	background-image: url('../img/bg2.jpg');
+	
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 340px;
+
+}
+
+
+
+	.ourteam h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 0px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 10px;
+}
+.teamsetting h4{
+	font-size: 12px;
+
+}
+.teamsetting h5 {
+    color: black;
+    font-weight: bold;
+    font-size: 7px;
+    text-transform: lowercase;
+    font-family: 'Tangerine', cursive;
+   margin-top: 25px;
+}
+
+															
+														}
+                                                /*------------end bachelor-----------*/
+
+
+
+
+
+
+
+
+
+                      /*------------- start---- css--- for---index.html--------------------------*/
+                      .column-item a i{
+                      	margin-top: 10px;
+                      	
+                      }
+
+                      .column-data a i{
+                      	margin-top: 10px;
+                      	
+
+                      }
+                      /*----------------------end css for index.html--------------------------------*/
+/*--------------------------end data collase css of science--------------------------*/
+
 
 
 /*------bachelor----*/
@@ -579,15 +894,17 @@ btn-btn{
 																						}
 																						.contact h1{
 																							font-weight: bold;
-																							font-size: 25px;
+																							font-size: 20px;
 																							color: white;
 
 																						}
 																						.contact-form{
 																							box-shadow: 0 0 4px 0 rgba(0,0,0,0.5);
 																							margin: 50px auto;
-																							width: 350px;
+																							width: 225px;
 																							text-align: center;
+																							height: 340px;
+
 
 
 																						}
@@ -613,8 +930,9 @@ btn-btn{
 																						.contact-form button{
 																							font-size: none;
 																							margin-bottom: 5px 5px 10px;
-																							margin-top: 10px;
-																							border-spacing: 10px;
+																							margin-top: 3px;
+																							border-spacing: 5px;
+																							font-size: 12px;
 
 																							
 																						}
@@ -629,18 +947,9 @@ btn-btn{
 												}
 /*---------------end the querry for the contact forom----------*/
 
-/*-----------------------footer---------------*/
+/*------------social icon and dATA---------------*/
+.data-style{
 
-.footer{
-	height: 15px;
-	color: black;
-
-
-
-}
-.footer h6{
-	line-height: 15px;
-	
 }
 
 @media (max-width: 1199.98px) { ... }
@@ -660,15 +969,29 @@ btn-btn{
 	font-size: 13px;
 }
 @media (max-width: 575.98px) {
-	.footer h6{
-	line-height: 10px;
-	font-size: 10px;
+	.data-style p{
+		font-size: 8px;
+	}
+
+}
+	
+
+
+/*-----------------------footer---------------*/
+
+.footer{
+	height: 15px;
+	color: black;
+
+
+
+}
+.footer h6{
+	line-height: 15px;
+	color: white;
+	font-size: 12px;
 	
 }
-
-
-
-/*----------- start----mediaquerry- for naavbar--*/
 
 @media (max-width: 1199.98px) { ... }
 
@@ -678,24 +1001,19 @@ btn-btn{
 
 @media (max-width: 991.98px) {
 	
-}
 @media (max-width: 767.98px) { 
 
 	  
 
-	
-	ul li a{
-		font-size: 10px;
-
-	}
-	
+	.footer h6{
+	line-height: 15px;
+	font-size: 10px;
 }
 @media (max-width: 575.98px) {
-
-	ul li a{
-		font-size: 10px;
-
-	}
+	.footer h6{
+	line-height: 10px;
+	font-size: 8px;
 	
 }
-/*---------------end the querry for navbar---------*/
+
+

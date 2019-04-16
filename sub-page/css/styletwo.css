@@ -2,6 +2,12 @@ body{
 	margin: 0px;
 	padding: 0px;
 }
+
+
+body{
+	margin: 0px;
+	padding: 0px;
+}
 .img{
 	background-image: url('../img/bg2.jpg');
 	
@@ -127,6 +133,15 @@ body{
 	height: 340px;
 
 }
+.image-img{
+	background-image: url('../img/bg2.jpg');
+	
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 200px;
+
+}
 
 
 
@@ -164,18 +179,3 @@ p {
 
 
 
-
-
-
-                      /*------------- start---- css--- for---index.html--------------------------*/
-                      .column-item a i{
-                      	margin-top: 10px;
-                      	
-                      }
-
-                      .column-data a i{
-                      	margin-top: 10px;
-                      	
-
-                      }
-                      /*----------------------end css for index.html--------------------------------*/
